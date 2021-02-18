@@ -45,7 +45,7 @@ header {
     top: 30%;
     right: 30%;
     width: 40vw;
-    height: auto;
+    height: 50vh;
     visibility: hidden;
     animation:maria 2s 2s  1 forwards; 
     z-index: 0;
@@ -366,7 +366,7 @@ form{
         }        
     }
     .maria {
-        height: auto;
+        height: 150hw;
         width: 90vw;
     } 
     .fa-arrow-alt-circle-down{
