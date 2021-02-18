@@ -189,6 +189,10 @@ body {
     text-align: center; 
     box-shadow: 0 0 5px 5px  rgb(219, 11, 209);
 }
+.event-container img{
+    height: 100%;
+    width: 100%;
+}
 .jump-to-the-top {
     text-decoration: none;
     font-family: type;
