@@ -32,14 +32,14 @@ header {
     opacity: 20%;
     animation: fede 140ms steps(90) infinite normal;
 }  
-@keyframes fede {
+/* @keyframes fede {
     from {
         background-image: none;
       }
       to {
         background-image: url(./images/filobarba.jpg);
       }
-    }
+    } */
 .maria {
     position: absolute;
     top: 30%;
@@ -369,8 +369,8 @@ form{
         }        
     }
     .maria {
-        height: 600px;
-        width: 600px;
+        height: 60%;
+        width: 60%;
         position: absolute;
     top: 30%;
     right: 30%;
