@@ -281,16 +281,19 @@ h1 {
 label {
     color: rgb(43, 245, 43);
 }
-.fa-facebook-square{
+ .fa-instagram{
     font-size: 100px;
-    color: rgb(219, 11, 209);
-}
+    color: rgb(219, 11, 209); 
+    
+
+}  
 .fa-link{
     font-size: 50px;
     color: rgb(219, 11, 209);
+   
 }
 .fa-link:hover {
-    font-size: 400%;
+    font-size: 350%;
 }
 .fa-facebook-square:hover{
     font-size: 600%;
@@ -426,10 +429,10 @@ form{
         font-size: 5vw;
     }
 }
-/* @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .maria {
-        height: 100vh;
-        width: 50vw;
+        height: 70%;
+        width: 70%;
     } 
     .event-container{
         width: 30vw;
@@ -439,7 +442,7 @@ form{
     }
    
 
-} */
+}
 
 
 .imgStyle{
