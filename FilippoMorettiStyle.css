@@ -48,8 +48,9 @@ header {
     height: 50vh;
     visibility: hidden;
     animation:maria 2s 2s  1 forwards; 
-    z-index: 0;
+    z-index: -1;
     overflow: hidden;
+    object-fit: contain;
 }
 
 .me {
@@ -378,6 +379,7 @@ form{
     .event-container{
         width: 60vw;
         height: 40vh;
+        object-fit: contain;
     }
     .ableton{
         margin: auto;
