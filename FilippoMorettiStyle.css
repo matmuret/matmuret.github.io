@@ -51,6 +51,7 @@ header {
     z-index: 0;
     overflow: hidden;
 }
+
 .me {
     width: 100%;
     height: 100%;
@@ -405,43 +406,23 @@ form{
         box-shadow: 0 0 5px 5px  rgb(219, 11, 209);
     }
 }
-@media only screen and  (min-width:320px) and (max-width: 425px) {
-    
-    
-    .line {
-        position: absolute;
-        left: -40vw;
-        top: 20%;
-        margin-left: 0;
-        font-size: 0.1vh;
-        width: 100%; 
-    }
-     @keyframes typewriter {
-        from { 
+@media only screen and  /* (min-width:320px) and */ (max-width: 425px) {
+    .type{
+        animation: typewriter 1s  steps(120) 4s 1 normal forwards,
+        cursor 500ms steps(60) infinite normal; 
+        }
+    @keyframes typewriter {
+        from {
           width: 10%;
           visibility: visible;
+          
         }
-        to { 
-          width: 140vw;
-          visibility: visible
-        }        
-    }
-    
-    
-    
-   
-    h1{
-        font-size: 5vh;
-    }
-    p{
-        font-size: 2vh;
-    }
-
-    .event-container{
-        
-        height: 15vh;
-        
-    }
+        to {
+          width: 150%;
+          visibility: visible;
+          margin-left: 10vh;
+        }
+      }
 }
 
 .imgStyle{
