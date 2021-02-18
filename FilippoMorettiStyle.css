@@ -246,7 +246,7 @@ h2 {
     font-family: type;
     color: rgb(219, 11, 209);
     text-align: center;  
-    /* margin: 9%; */
+    font-size: 4vh;
 }
 p {
     font-size: 2vh;
@@ -265,7 +265,7 @@ h1 {
     color: rgb(219, 11, 209);
     text-shadow:2px 2px 3px rgb(43, 245, 43); 
     text-align: center;
-    /* font-size: 8vh; */
+    font-size: 8vh;
     /* margin: 9%; */
 }
 label {
