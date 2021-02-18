@@ -222,6 +222,11 @@ body {
     width: 60vw;
     height: 80vh;
 }
+.symbols img{
+    width: auto;
+    height: 100%;
+
+}
 .ableton{
     margin: auto;
     width: 30vw;
