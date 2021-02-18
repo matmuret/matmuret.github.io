@@ -6,9 +6,17 @@
     src: url(./font/1942.ttf);
     font-family: type;
 }
+body{
+    width: 100%;
+    padding: 0%;
+    margin:0%;
+}
 html {
+    padding: 0%;
+    margin:0%;
     background-color: black;
     scroll-behavior: smooth;   
+   box-sizing: border-box;
 }
 /* HEADER */
 header {
@@ -156,6 +164,7 @@ nav {
     right: 0;
     left: 0;
     z-index: 1;
+    width: 100%;
 }
 nav a {
     text-decoration: none;
@@ -163,7 +172,7 @@ nav a {
     padding: 10px 25px;
     background: black;
     color: rgb(219, 11, 209);
-    font-size: 20px;
+   /*  font-size: 20px; */
     transition: all 0.5s;
     font-family: type;   
 }
@@ -181,7 +190,7 @@ nav a:hover {
 body {
     background-color: black;
     font-family: "courier new";
-    font-size: 150%
+    /* font-size: 150% */
 } 
 .event-container{
     width: 30vw;
@@ -213,8 +222,9 @@ body {
     height: 50vh;
 }
 section {
-    padding-top: 40px;
+    padding-top: 4vh; 
     text-align: center; 
+    width: 100%;
 }
 li {
     list-style: none;
@@ -235,7 +245,7 @@ h2 {
     font-family: type;
     color: rgb(219, 11, 209);
     text-align: center;  
-    margin: 9%;
+    /* margin: 9%; */
 }
 p {
     font-size: 2vh;
@@ -250,12 +260,12 @@ p {
     color: rgb(43, 245, 43);
 }
 h1 {
-    font-family: press;
+   /*  font-family: press; */
     color: rgb(219, 11, 209);
     text-shadow:2px 2px 3px rgb(43, 245, 43); 
     text-align: center;
-    font-size: 8vh;
-    margin: 9%;
+    /* font-size: 8vh; */
+    /* margin: 9%; */
 }
 label {
     color: rgb(43, 245, 43);
@@ -383,15 +393,30 @@ form{
         font-size: 2vh;
     }
 }
-@media only screen and (min-width:768) and (max-width: 1024px) {
+@media only screen and  (max-width: 768px) {
     .maria {
         height: 100vh;
         width: 50vw;
     } 
+    .event-container{
+        width: 30vw;
+        height: 15vh;
+        text-align: center; 
+        box-shadow: 0 0 5px 5px  rgb(219, 11, 209);
+    }
+}
+@media only screen and  (max-width: 425px) {
+  
+    .event-container{
+        
+        height: 15vh;
+        
+    }
 }
 
 .imgStyle{
     height:100px;
     width: 100px;
     border:3px solid  rgb(219, 11, 209);
+
 }
