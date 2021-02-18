@@ -51,6 +51,8 @@ header {
     z-index: 0;
     overflow: hidden;
     object-fit: contain;
+
+    
 }
 
 .me {
@@ -367,8 +369,18 @@ form{
         }        
     }
     .maria {
-        height: 150hw;
-        width: 90vw;
+        height: 600px;
+        width: 600px;
+        position: absolute;
+    top: 30%;
+    right: 30%;
+    /* width: 40vw;
+    height: 50vh; */
+    visibility: hidden;
+    animation:maria 2s 2s  1 forwards; 
+    z-index: 0;
+    overflow: hidden;
+    object-fit: contain;
     } 
     .fa-arrow-alt-circle-down{
         color: rgb(219, 11, 209);
