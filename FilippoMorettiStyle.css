@@ -45,7 +45,7 @@ header {
     top: 30%;
     right: 30%;
     width: 40vw;
-    height: 60vh;
+    height: auto;
     visibility: hidden;
     animation:maria 2s 2s  1 forwards; 
     z-index: 0;
@@ -166,6 +166,7 @@ nav {
     left: 0;
     z-index: 1;
     width: 100%;
+    font-size: 2vw;
 }
 nav a {
     text-decoration: none;
@@ -178,7 +179,7 @@ nav a {
     font-family: type;   
 }
 nav a:hover {   
-    font-size: 200%;
+    font-size: 150%;
 }
 /* AUDIO */
 .audio {
@@ -208,6 +209,7 @@ body {
     font-family: type;
     color: black;
     margin: 10px;
+    font-size: 3vh;
 }
 .jump-to-the-top:hover{
     font-size: 200%;
@@ -364,7 +366,7 @@ form{
         }        
     }
     .maria {
-        height: 50vh;
+        height: auto;
         width: 90vw;
     } 
     .fa-arrow-alt-circle-down{
@@ -393,8 +395,19 @@ form{
     p{
         font-size: 2vh;
     }
+    nav {text-align: center;
+        background-color: black;
+        text-align: center;
+        position: sticky;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        font-size: 5vw;
+    }
 }
-@media only screen and  (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
     .maria {
         height: 100vh;
         width: 50vw;
@@ -405,25 +418,10 @@ form{
         text-align: center; 
         box-shadow: 0 0 5px 5px  rgb(219, 11, 209);
     }
-}
-@media only screen and  /* (min-width:320px) and */ (max-width: 425px) {
-    .type{
-        animation: typewriter 1s  steps(120) 4s 1 normal forwards,
-        cursor 500ms steps(60) infinite normal; 
-        }
-    @keyframes typewriter {
-        from {
-          width: 10%;
-          visibility: visible;
-          
-        }
-        to {
-          width: 150%;
-          visibility: visible;
-          margin-left: 10vh;
-        }
-      }
-}
+   
+
+} */
+
 
 .imgStyle{
     height:100px;
