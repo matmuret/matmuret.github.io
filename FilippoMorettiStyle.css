@@ -223,8 +223,8 @@ body {
     height: 80vh;
 }
 .symbols img{
-    width: auto;
-    height: 100%;
+    width: 100%;
+    height: auto;
 
 }
 .ableton{
