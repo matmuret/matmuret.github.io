@@ -405,8 +405,38 @@ form{
         box-shadow: 0 0 5px 5px  rgb(219, 11, 209);
     }
 }
-@media only screen and  (max-width: 425px) {
-  
+@media only screen and  (min-width:320px) and (max-width: 425px) {
+    
+    
+    .line {
+        position: absolute;
+        left: -40vw;
+        top: 20%;
+        margin-left: 0;
+        font-size: 0.1vh;
+        width: 100%; 
+    }
+     @keyframes typewriter {
+        from { 
+          width: 10%;
+          visibility: visible;
+        }
+        to { 
+          width: 140vw;
+          visibility: visible
+        }        
+    }
+    
+    
+    
+   
+    h1{
+        font-size: 5vh;
+    }
+    p{
+        font-size: 2vh;
+    }
+
     .event-container{
         
         height: 15vh;
