@@ -8,15 +8,16 @@
 }
 body{
     width: 100%;
-    padding: 0%;
-    margin:0%;
+    height: 100%;
+    /* padding: 0%;
+    margin:0%; */
 }
 html {
     padding: 0%;
     margin:0%;
     background-color: black;
     scroll-behavior: smooth;   
-   box-sizing: border-box;
+  /*  box-sizing: border-box; */
 }
 /* HEADER */
 header {
@@ -295,8 +296,8 @@ label {
 .fa-link:hover {
     font-size: 350%;
 }
-.fa-facebook-square:hover{
-    font-size: 600%;
+.fa-instagram:hover{
+    font-size: 700%;
 }
 .fas{  
     position: relative;
@@ -333,7 +334,8 @@ form{
 .form{
     font-family: type;
     width: 100vw;
-   
+    margin-bottom: 10vh;
+    
     background: linear-gradient(rgb(219, 11, 209),rgba(233, 230, 230, 0),rgb(219, 11, 209));
 }
 .box{
@@ -444,10 +446,49 @@ form{
 
 }
 
+button{
+ 
+    width: 30vw;
+    color: rgb(219, 11, 209);
+    transition: .3s ease background-color ;
+}
+button:hover{
+    /* border:3px solid  rgb(43, 245, 43); */
+    background-color:rgb(84, 241, 84);
 
+}
 .imgStyle{
     height:100px;
     width: 100px;
     border:3px solid  rgb(219, 11, 209);
 
+}
+#status.success{
+    width: 100vw; 
+    text-align: center; 
+    color: rgb(43, 245, 43);
+    font-size: 4vh;
+    animation: status 4s ease forwards;
+}
+#status.error{
+    width: 100vw; 
+    text-align: center; 
+    color: rgb(219, 11, 209);
+    font-size: 4vh;
+    background-color:  rgb(43, 245, 43);
+    animation: status 4s ease forwards;
+}
+@keyframes status{
+    0%{
+        opacity:1;
+        pointer-events: all;
+    }
+    90%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    100%{
+        opacity:0;
+        pointer-events: none;
+    }
 }
