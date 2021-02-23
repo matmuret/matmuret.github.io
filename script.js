@@ -9,7 +9,6 @@ const status=document.getElementById("status")
 }
 
 function error(){
-    
     const status=document.getElementById("status")
     status.innerHTML="Oops! Something went wrong"
     status.classList.add('error')

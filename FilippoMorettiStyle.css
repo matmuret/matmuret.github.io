@@ -177,7 +177,7 @@ nav a {
     display: inline-block;
     padding: 10px 25px;
     background: black;
-    color: rgb(219, 11, 209);
+    color:rgb(43, 245, 43);
    /*  font-size: 20px; */
     transition: all 0.5s;
     font-family: type;   
@@ -211,7 +211,7 @@ body {
 .jump-to-the-top {
     text-decoration: none;
     font-family: type;
-    color: black;
+    color: rgb(43, 245, 43);
     margin: 10px;
     font-size: 3vh;
 }
@@ -336,11 +336,11 @@ form{
     width: 100vw;
     margin-bottom: 10vh;
     
-    background: linear-gradient(rgb(219, 11, 209),rgba(233, 230, 230, 0),rgb(219, 11, 209));
+    background: /* linear-gradient(rgb(219, 11, 209), */rgba(233, 230, 230, 0)/* ,rgb(219, 11, 209)) */;
 }
 .box{
     width: 100vw;
-    background: linear-gradient(rgb(219, 11, 209),rgba(233, 230, 230, 0),rgba(233, 230, 230, 0),rgb(219, 11, 209));
+    background: /* linear-gradient(rgb(219, 11, 209), */rgba(59, 26, 26, 0)/* ,rgba(233, 230, 230, 0),rgb(219, 11, 209)) */;
     display: flex;
     flex-direction: column;
     align-items: center;
